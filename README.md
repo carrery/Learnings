@@ -5,7 +5,7 @@ This book is for computer professionals specially developers who want to improve
 
 Here are the summary and learnings I have gained for each pattern.
 
-### Strategy Pattern
+## Strategy Pattern
 
 Strategy defines a family of algorithms encapsulates each one and makes them interchangeable. In the book they used a duck pond simulation game called “SimUDuck” as an example. The game can show a large variety of duck species swimming and making quacking sounds. The initial design is a Duck superclass which all other duck types inherit.
 
@@ -45,6 +45,7 @@ In the diagram above, the concrete subject need to implement the subject interfa
 <img src="Images/observer5.JPG" alt="observer5" class="inline"/>
 <img src="Images/observer6.JPG" alt="observer6" class="inline"/>
 <img src="Images/observer7.JPG" alt="observer6" class="inline"/>
+
 Observer is a pattern for communicating state to a set of objects in a loosely coupled manner. This pattern is recommended to use for one to many relationships when subjects wants to notify its dependent objects automatically.
 
 ## Decorator Pattern
