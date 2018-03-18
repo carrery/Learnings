@@ -9,3 +9,4 @@ Here are the summary and learnings I have gained for each pattern.
 
 Strategy defines a family of algorithms encapsulates each one and makes them interchangeable. In the book they used a duck pond simulation game called “SimUDuck” as an example. The game can show a large variety of duck species swimming and making quacking sounds. The initial design is a Duck superclass which all other duck types inherit.
 
+<img src="Images/strategy1.jpg" alt="hi" class="inline"/>
