@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Head First Design Patterns
+Eric Freeman and Elisabeth Robson
 
-You can use the [editor on GitHub](https://github.com/carrery/Learnings/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+This book is for computer professionals specially developers who want to improve their coding skills. It is a good book and I like the way the author put a lot of images for the readers to visualize and understand the topic. Well I’m not a fan of reading book since it makes me sleepy and bored however for a person like me who doesn’t usually read books I can say that those pictures help to make the book and topic more interesting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here are the summary and learnings I have gained for each pattern.
 
-### Markdown
+### Strategy Pattern
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Strategy defines a family of algorithms encapsulates each one and makes them interchangeable. In the book they used a duck pond simulation game called “SimUDuck” as an example. The game can show a large variety of duck species swimming and making quacking sounds. The initial design is a Duck superclass which all other duck types inherit.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/carrery/Learnings/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
