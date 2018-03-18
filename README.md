@@ -46,3 +46,25 @@ In the diagram above, the concrete subject need to implement the subject interfa
 <img src="Images/observer6.JPG" alt="observer6" class="inline"/>
 <img src="Images/observer7.JPG" alt="observer6" class="inline"/>
 Observer is a pattern for communicating state to a set of objects in a loosely coupled manner. This pattern is recommended to use for one to many relationships when subjects wants to notify its dependent objects automatically.
+
+## Decorator Pattern
+
+Next pattern I read from the book is the decorator. This pattern will attach additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality. 
+
+<img src="Images/decorator4.JPG" alt="decorator4" class="inline"/>
+
+In the book they use a “Starbuzz” coffee shop as an example.
+
+<img src="Images/decorator5.JPG" alt="decorator5" class="inline"/>
+
+In this diagram, they make a “Dark Roast” object and wrap it with Mocha and whip. 
+
+<img src="Images/decorator6.JPG" alt="decorator6" class="inline"/>
+
+At first, I had a hard time understanding it until I see the code. It is not the same code of the diagram above but here it is clearly shown that they pass the beverage2 which are the dark roast object to mocha then pass the mocha to whip. By using this, it delegates the responsibilities to compute costs in each beverage. 
+
+<img src="Images/decorator7.JPG" alt="decorator7" class="inline"/>
+
+Base from the book example we can notice that it can fulfill Open-Closed Principle. Why, because when you need to add a new condiment you just need to create it by extending the decorator, if you want to add a new beverage you just need to extend the abstract beverage. 
+
+I haven’t finished reading the book yet but based from what I have read already I can say that this is a good book. I wish that I have read this when I was starting. It uses good examples which is easy to understand even for a beginner. I recommend this book for developers which have at least basic knowledge of Java. There is also a site where you can download the codes (http://wickedlysmart.com/head-first-design-patterns/) but I recommend typing the examples.
